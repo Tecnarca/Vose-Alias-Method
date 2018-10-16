@@ -1,4 +1,4 @@
-#Non-Uniform-Distribution-Extractor
+# Non-Uniform-Distribution-Extractor
 This program implements an efficent algorithm to extract numbers w.r.t. a 
 non-uniform probability distribution, when normally (at least in C) the
 random number generator extracts from a uniform distribution.
@@ -7,7 +7,7 @@ random number generator extracts from a uniform distribution.
 The algorithm used to do this is named `Vose's Alias Method`, and it is
 explained how it works very well [here](http://www.keithschwarz.com/darts-dice-coins).
 
-###Computational Complexity
+### Computational Complexity
 We divide the complexity of this algorithms in three categories: 
 * The space complexity (i.e. how much RAM it requires)
 * The initialization time complexity (i.e. how much time it takes to generate
@@ -59,7 +59,7 @@ generation and the extraction in two different steps,
 this way you can execute code between different extractions, avoiding the O(N) complexity
 of regenerating the needed arrays.
 
-##More info and applications
+## More info and applications
 The explanaton of the algorithm can be found in the page linked above.
 
 This algorithm can be used in pretty much every genetic algorithm as an
