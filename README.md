@@ -3,12 +3,14 @@ This program implements an efficent algorithm to extract numbers w.r.t. a
 non-uniform probability distribution, when normally (at least in C) the
 random number generator extracts from a uniform distribution.
 
+The objective of this particular implementation is to reduce as much as possible the execution time needed to extract some numbers, along with the time complexity. The explanation on how this was achived can be found below.
+
 ## How this works
 The algorithm used to do this is named `Vose's Alias Method`, and it is
 explained how it works very well [here](http://www.keithschwarz.com/darts-dice-coins).
 
 ### Computational Complexity
-We divide the complexity of this algorithms in three categories: 
+We divide the complexity of this type of algorithms in three categories: 
 * The space complexity (i.e. how much RAM it requires)
 * The initialization time complexity (i.e. how much time it takes to generate
 the vectors we need to make any extractions)
