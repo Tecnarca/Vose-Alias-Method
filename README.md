@@ -14,6 +14,8 @@ We divide the complexity of this algorithms in three categories:
 the vectors we need to make any extractions)
 * The generation time complexity (i.e. how much time it takes to extract a number w.r.t. the distribution), given we generated the needed arrays
 
+This table shows some algorithms that share the same Objective along with their complexity.
+
 ![Plotted data](complexity_table.png?raw=true "Computational Complexity of some algorithms with the same objective")
 
 As shown above, a great advantage this algorithm has over its competitors is that 
