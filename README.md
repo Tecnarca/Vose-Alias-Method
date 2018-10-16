@@ -3,7 +3,7 @@ This program implements an efficent algorithm to extract numbers w.r.t. a
 non-uniform probability distribution, when normally (at least in C) the
 random number generator extracts from a uniform distribution.
 
-##How this works
+## How this works
 The algorithm used to do this is named `Vose's Alias Method`, and it is
 explained how it works very well [here](http://www.keithschwarz.com/darts-dice-coins).
 
@@ -64,5 +64,5 @@ The explanaton of the algorithm can be found in the page linked above.
 
 This algorithm can be used in pretty much every genetic algorithm as an
 improvement to extract the random numbers to choose who must reproduce
-in the most efficent way possible, as discussed (here)[https://github.com/gr3yc4t/Travelling-Salesman-Genetic]
+in the most efficent way possible, as discussed [here](https://github.com/gr3yc4t/Travelling-Salesman-Genetic)
 Also, everything that has to do with simulations may use this to implement a generation given a desired probability distribution.
