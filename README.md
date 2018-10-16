@@ -64,5 +64,6 @@ The explanaton of the algorithm can be found in the page linked above.
 
 This algorithm can be used in pretty much every genetic algorithm as an
 improvement to extract the random numbers to choose who must reproduce
-in the most efficent way possible, as discussed [here](https://github.com/gr3yc4t/Travelling-Salesman-Genetic)
+in the most efficent way possible, as discussed [here](https://github.com/gr3yc4t/Travelling-Salesman-Genetic).
+
 Also, everything that has to do with simulations may use this to implement a generation given a desired probability distribution.
