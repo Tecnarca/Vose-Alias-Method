@@ -7,7 +7,7 @@ The objective of this particular implementation is to reduce as much as possible
 
 ## How this works
 The algorithm used to do this is named `Vose's Alias Method`, and it is
-explained how it works very well [here](http://www.keithschwarz.com/darts-dice-coins).
+well explained [here](http://www.keithschwarz.com/darts-dice-coins).
 
 ### Computational Complexity
 We divide the complexity of this type of algorithms in three categories: 
