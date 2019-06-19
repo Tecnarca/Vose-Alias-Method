@@ -1,5 +1,5 @@
-# Non-Uniform-Distribution-Extractor
-This program implements an efficent algorithm to extract numbers w.r.t. a 
+# Vose-Alias-Method
+This program implements an efficent algorithm to sample numbers w.r.t. a 
 non-uniform probability distribution, when normally (at least in C) the
 random number generator extracts from a uniform distribution.
 
